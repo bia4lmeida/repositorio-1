@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="uft-8">
+<title> Elementos Flutuantes</title>
+<style>
+body{
+background: #B0C4DE;
+}
+.foto{
+background: #FFFFFF;
+padding: 5px;
+float: left;
+margin: 10px;
+}
+.centralizar{
+width: 1320px;
+margin:auto;
+}
+.clear{
+clear: both;
+}
+p.formatar{
+text-align: justify;
+margin:20px;
+}
+div.static{
+position: static;
+border: 3px solid #73AD21;
+}
+div.relative{
+position:relative;
+left: 50px;
+border: 3px solid #73AD21;
+width: 300px;
+}
+div.absolute{
+position: absolute;
+top:80px;
+right:0;
+width:200px;
+height:100px;
+border:3px solid #73AD21;
+}
+div.fixed{
+position: fixed;
+bottom:0;
+right:0;
+border: 3px solid #73AD21;
+width:300px;
+}
+div.sticky{
+position:sticky;
+top:0;
+padding:5px;
+background-color:#CAE8CA;
+border:3px solid #73AD21;
+</style>
+</head>
+
+<body>
+
+<h1>position: static</h1>
+
+<div class="centralizar">
+
+<div class="foto">
+<img src="flores_campo.jpg">
+<p> Flores ao campo </p>
+
+</div>
+
+<div class="foto">
+<img src="poppies.jpg">
+<p> paisagem com flor </p>
+</div>
+
+<div class="foto">
+<img src="summerfield.jpg">
+<p> moça ao campo </p>
+</div>
+
+<div class="foto">
+<img src="tree.jpg">
+<p> grama e tronco de arvore </p>
+</div>
+
+<div class="static">
+<p> este elemento foi posicionado  com static</p>
+</div>
+
+<div class="relative">
+<p> este elemento foi posicionado  com relative</p>
+</div>
+
+<div class="absolute">
+<p> este elemento foi posicionado  com absolute</p>
+</div>
+
+<div class="fixed">
+<p> este elemento foi posicionado  com fixed</p>
+</div>
+
+<div class="sticky">
+<p> este elemento foi posicionado  com sticky</p>
+</div>
+
+</div>
+</body>
+</html>
